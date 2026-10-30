@@ -1,0 +1,31 @@
+WEEK 3: UNSUPERVISED LEARNING & MODEL EVALUATION
+
+Best K-Means k: 3
+Silhouette scores by k: {2: 0.2593169555318255, 3: 0.2848589191898987, 4: 0.26017035223704527, 5: 0.20161908294074093, 6: 0.23716725754166543}
+
+Clustering metrics (higher silhouette and Calinski-Harabasz are generally better; lower Davies-Bouldin is better):
+K-Means: {'Silhouette': 0.2848589191898987, 'Davies-Bouldin': 1.3891879777181646, 'Calinski-Harabasz': 70.9400080031512}
+Hierarchical: {'Silhouette': 0.2774439826952266, 'Davies-Bouldin': 1.4185919431857326, 'Calinski-Harabasz': 67.6474675044098}
+
+Classification: Breast Cancer Wisconsin dataset
+Best parameters: {'classifier__C': 0.1, 'classifier__solver': 'lbfgs'}
+Best cross-validation F1: 0.9861
+5-fold CV F1 scores: [0.98275862 0.98245614 0.99130435 0.98275862 0.99130435]
+Mean 5-fold CV F1: 0.9861
+Test precision: 0.9726
+Test recall: 0.9861
+Test F1-score: 0.9793
+Test ROC-AUC: 0.9957
+Confusion matrix:
+[[40  2]
+ [ 1 71]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+   malignant       0.98      0.95      0.96        42
+      benign       0.97      0.99      0.98        72
+
+    accuracy                           0.97       114
+   macro avg       0.97      0.97      0.97       114
+weighted avg       0.97      0.97      0.97       114

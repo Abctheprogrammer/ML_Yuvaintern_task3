@@ -1,0 +1,11 @@
+Student_ID,Study_Hours,Attendance_Percent,Internet_Access,Parental_Support,Final_Score
+101,2.0,65.0,No,Low,48.0
+102,4.5,78.0,Yes,Medium,67.0
+103,,72.0,Yes,High,61.0
+104,6.0,,Yes,Medium,75.0
+105,3.0,80.0,,Low,
+106,7.5,95.0,Yes,High,92.0
+107,5.0,88.0,No,Medium,79.0
+108,4.0,76.0,Yes,Low,64.0
+108,4.0,76.0,Yes,Low,64.0
+109,8.0,98.0,Yes,High,96.0
